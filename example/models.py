@@ -1,7 +1,7 @@
 from django.db import models
 
 class Book(models.Model):
-    bid = models.IntegerField(primary_key=True) #책 id
+    bid = models.IntegerField(primary_key=True)
     title = models.CharField(max_length=50)
     author = models.CharField(max_length=50)
     category = models.CharField(max_length=50)
